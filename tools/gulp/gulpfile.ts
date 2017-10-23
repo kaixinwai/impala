@@ -15,7 +15,7 @@ import './tasks/docs';
 import './tasks/e2e';
 import './tasks/lint';
 import './tasks/publish';
-import './tasks/screenshots';
+// import './tasks/screenshots';
 import './tasks/examples';
 import './tasks/unit-test';
 import './tasks/aot';
