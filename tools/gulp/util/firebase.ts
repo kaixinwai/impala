@@ -3,7 +3,7 @@ const firebase = require('firebase');
 const cloudStorage = require('@google-cloud/storage');
 
 // Firebase configuration for the Screenshot project. Use the config from the screenshot functions.
-const screenshotFirebaseConfig = require('../../screenshot-test/functions/config.json');
+// const screenshotFirebaseConfig = require('../../screenshot-test/functions/config.json');
 
 /** Database URL of the dashboard firebase project.*/
 const dashboardDatabaseUrl = 'https://material2-board.firebaseio.com';
@@ -57,7 +57,7 @@ export function decode(str: string): string {
  * Open firebase connection for screenshot
  * This connection is client side connection with no credentials
  */
-export function connectFirebaseScreenshots() {
-  return firebase.initializeApp(screenshotFirebaseConfig.firebase);
-}
+// export function connectFirebaseScreenshots() {
+//   return firebase.initializeApp(screenshotFirebaseConfig.firebase);
+// }
 
