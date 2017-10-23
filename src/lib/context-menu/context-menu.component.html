@@ -1,0 +1,8 @@
+<ul class="dropdown-menu">
+    <ng-container *ngFor="let item of config.items">
+        <li *ngIf="!item.divider" [ngClass]="{disabled: item.disabled}">
+            <a (click)="onContextMenuAction(item)">{{item.text}}</a>
+        </li>
+        <li *ngIf="item.divider" role="separator" class="divider"></li>
+    </ng-container>
+</ul>

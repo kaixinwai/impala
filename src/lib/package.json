@@ -1,0 +1,30 @@
+{
+  "name": "impala",
+  "version": "0.0.0-PLACEHOLDER",
+  "description": "impala",
+  "main": "./bundles/impala.umd.js",
+  "module": "./esm5/impala.es5.js",
+  "es2015": "./esm2015/impala.js",
+  "typings": "./impala.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/angular/material2.git"
+  },
+  "keywords": [
+    "angular",
+    "components"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/angular/material2/issues"
+  },
+  "homepage": "https://github.com/angular/material2#readme",
+  "peerDependencies": {
+    "@angular/core": "0.0.0-NG",
+    "@angular/common": "0.0.0-NG",
+    "@angular/cdk": "^2.0.0-beta.12"
+  },
+  "dependencies": {
+    "tslib": "^1.7.1"
+  }
+}

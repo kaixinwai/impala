@@ -1,0 +1,19 @@
+// Configuration for IDEs only.
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "rootDir": "..",
+    "baseUrl": ".",
+    "paths": {
+      "impala/*": [
+        "./*"
+      ],
+      "@angular/material/*": [
+        "./*"
+      ]
+    }
+  },
+  "include": [
+    "./**/*.ts"
+  ]
+}
