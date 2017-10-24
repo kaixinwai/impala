@@ -7,7 +7,7 @@ import {
 import {/*cdkPackage, */materialPackage/*, momentAdapterPackage*/} from '../packages';
 
 // These imports don't have any typings provided.
-const firebaseTools = require('firebase-tools');
+// const firebaseTools = require('firebase-tools');
 
 const {outputDir, packagesDir, projectDir} = buildConfig;
 
@@ -78,9 +78,9 @@ task('stage-deploy:devapp', ['build:devapp'], () => {
  * Task that deploys the demo-app to Firebase. Firebase project will be the one that is
  * set for project directory using the Firebase CLI.
  */
-task('deploy:devapp', ['stage-deploy:devapp'], () => {
-  return firebaseTools.deploy({cwd: projectDir, only: 'hosting'})
-    // Firebase tools opens a persistent websocket connection and the process will never exit.
-    .then(() => { console.log('Successfully deployed the demo-app to firebase'); process.exit(0); })
-    .catch((err: any) => { console.log(err); process.exit(1); });
-});
+// task('deploy:devapp', ['stage-deploy:devapp'], () => {
+//   return firebaseTools.deploy({cwd: projectDir, only: 'hosting'})
+//     // Firebase tools opens a persistent websocket connection and the process will never exit.
+//     .then(() => { console.log('Successfully deployed the demo-app to firebase'); process.exit(0); })
+//     .catch((err: any) => { console.log(err); process.exit(1); });
+// });

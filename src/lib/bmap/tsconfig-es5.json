@@ -1,0 +1,22 @@
+{
+  "extends": "../tsconfig-es5",
+  "compilerOptions": {
+    "typeRoots": [
+      "../../../node_modules/@types"
+    ],
+    "types": [
+      "baidumap-web-sdk"
+    ]
+  },
+  "files": [
+    "public-api.ts",
+    "../typings.d.ts"
+  ],
+  "angularCompilerOptions": {
+    "annotateForClosureCompiler": true,
+    "strictMetadataEmit": true,
+    "flatModuleOutFile": "index.js",
+    "flatModuleId": "impala/bmap",
+    "skipTemplateCodegen": true
+  }
+}
