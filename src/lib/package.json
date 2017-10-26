@@ -8,7 +8,7 @@
   "typings": "./impala.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/angular/material2.git"
+    "url": "https://github.com/shenfw1987/impala.git"
   },
   "keywords": [
     "angular",
@@ -16,9 +16,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/angular/material2/issues"
+    "url": "https://github.com/shenfw1987/impala/issues"
   },
-  "homepage": "https://github.com/angular/material2#readme",
+  "homepage": "https://github.com/shenfw1987/impala#readme",
   "dependencies": {
     "@angular/core": "0.0.0-NG",
     "@angular/common": "0.0.0-NG",
