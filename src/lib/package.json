@@ -19,12 +19,10 @@
     "url": "https://github.com/angular/material2/issues"
   },
   "homepage": "https://github.com/angular/material2#readme",
-  "peerDependencies": {
+  "dependencies": {
     "@angular/core": "0.0.0-NG",
     "@angular/common": "0.0.0-NG",
-    "@angular/cdk": "^2.0.0-beta.12"
-  },
-  "dependencies": {
+    "@angular/cdk": "^2.0.0-beta.12",
     "tslib": "^1.7.1"
   }
 }

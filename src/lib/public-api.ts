@@ -39,4 +39,5 @@ export * from './version';
 // export * from '@angular/material/toolbar';
 // export * from '@angular/material/tooltip';
 
-export * from 'impala/context-menu';
+// export * from 'impala/context-menu';
+// export * from 'impala/bmap';

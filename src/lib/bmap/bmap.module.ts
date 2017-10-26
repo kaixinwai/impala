@@ -1,14 +1,13 @@
 import { BMAP_CONFIG, BMapConfig } from './bmap-config';
-import { NgModule, ModuleWithProviders } from '@angular/core';
+import { ModuleWithProviders, NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { BMapLoaderService } from './bmap-loader.service';
 import { BMapDirective } from './bmap.directive';
 
 @NgModule({
     declarations: [BMapDirective],
     imports: [CommonModule],
     exports: [BMapDirective],
-    providers: [BMapLoaderService],
+    providers: [],
 })
 export class BMapModule {
     static forRoot(config: BMapConfig): ModuleWithProviders {

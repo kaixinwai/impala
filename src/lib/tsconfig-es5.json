@@ -26,9 +26,6 @@
     "paths": {
       "impala/*": [
         "../../dist/packages/impala/*/public-api"
-      ],
-      "@angular/material/*": [
-        "../../dist/packages/material/*/public-api"
       ]
     }
   },

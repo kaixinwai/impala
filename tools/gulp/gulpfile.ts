@@ -1,9 +1,9 @@
 import { createPackageBuildTasks } from 'material2-build-tools';
-import { materialPackage } from './packages';
+import { impalaPackage } from './packages';
 
 // createPackageBuildTasks(cdkPackage);
-// createPackageBuildTasks(impalaPackage);
-createPackageBuildTasks(materialPackage);
+createPackageBuildTasks(impalaPackage);
+// createPackageBuildTasks(materialPackage);
 // createPackageBuildTasks(examplesPackage);
 // createPackageBuildTasks(momentAdapterPackage);
 
