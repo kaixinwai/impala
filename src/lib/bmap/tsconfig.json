@@ -1,3 +1,11 @@
 {
-  "extends": "./tsconfig-build"
+  "extends": "../tsconfig",
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "typeRoots": [
+      "../../../node_modules/@types"
+    ],
+    "types": [
+    ]
+  }
 }

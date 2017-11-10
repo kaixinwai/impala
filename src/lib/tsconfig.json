@@ -7,9 +7,6 @@
     "paths": {
       "impala/*": [
         "./*"
-      ],
-      "@angular/material/*": [
-        "./*"
       ]
     }
   },
