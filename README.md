@@ -2,4 +2,4 @@
 ## bmap
 ## context-menu
 ## loading-spinner (in progress)
-## iframe-bridge (in progress)
+## xoc (cross-origin communication) (in progress)
