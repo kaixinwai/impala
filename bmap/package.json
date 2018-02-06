@@ -1,0 +1,23 @@
+{
+  "ngPackage": {
+    "lib": {
+      "entryFile": "src/public_api.ts"
+    }
+  },
+  "name": "@impala/bmap",
+  "version": "1.0.1",
+  "scripts": {
+    "build": "ng-packagr -p package.json"
+  },
+  "peerDependencies": {
+    "@angular/core": "^5.0.0",
+    "@angular/common": "^5.0.0",
+    "@angular/compiler": "^5.0.0",
+    "@angular/cdk": "^5.0.0"
+  },
+  "devDependencies": {
+    "@angular/compiler-cli": "^5.0.0",
+    "ng-packagr": "^2.0.0",
+    "typescript": "^2.4.2"
+  }
+}

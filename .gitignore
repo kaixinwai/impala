@@ -1,7 +1,7 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # compiled output
-/dist
+dist
 /tmp
 /deploy
 /screenshots
@@ -9,16 +9,6 @@
 # dependencies
 node_modules
 /bower_components
-
-# Dart
-/.pub
-/.packages
-/packages
-/pubspec.lock
-/src/.pub
-/src/.packages
-/src/packages
-/src/pubspec.lock
 
 
 # IDEs
@@ -34,5 +24,6 @@ node_modules
 npm-debug.log
 testem.log
 /.chrome
+*.lock
 
 package-lock.json

@@ -1,1 +1,0 @@
-# impala, an Angular library
