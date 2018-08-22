@@ -7,8 +7,9 @@
 /coverage
 
 # production
-/es
-/lib
+es/
+lib/
+bin/
 
 # misc
 .DS_Store
