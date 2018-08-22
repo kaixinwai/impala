@@ -5,13 +5,15 @@
   "author": "kaixinwai <kaixinwai@pinduoduo.com>",
   "homepage": "https://github.com/kaixinwai/impala#readme",
   "license": "MIT",
-  "main": "lib/create-ts-lib.js",
+  "bin": "bin/index.js",
   "directories": {
     "lib": "lib",
-    "test": "__tests__"
+    "test": "__tests__",
+    "template": "template"
   },
   "files": [
-    "lib"
+    "bin",
+    "template"
   ],
   "publishConfig": {
     "access": "public"
